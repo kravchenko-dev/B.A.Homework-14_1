@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1440px;
+  margin: auto;
+}
+
+.header {
+  width: 1155px;
+  height: 80px;
+  margin: 38px 0 0 158px;
+}
+
+.header_logo {
+  color: #16133d;
+  font-family: Quicksand;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 35px;
+  margin: 0 0 45px 0;
+}
+
+.header_logo::before,
+.footer_logo::before {
+  content: url('../img/Vector.svg');
+  padding: 0 10px 0 0;
+}
+
+.main {
+  width: 1158px;
+  height: 472px;
+  padding: 55px 0 0 156px;
+}
+
+.main_p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #7690a8;
+  text-transform: uppercase;
+}
+
+.main_h2 {
+  font-family: Nunito Sans;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0.2px;
+  color: #16133d;
+  margin: 17px 0 0 0;
+}
+
+.main_block_cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 35px 0 0 0;
+}
+
+.main_block_card {
+  display: inline-block;
+  width: 360px;
+  height: 347px;
+  border: 1px solid #e5eaf4;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-family: Roboto;
+  font-weight: 400;
+  color: #16133d;
+}
+
+.main_block_card_box_svg {
+  border: 1px solid rgba(21, 101, 216, 0.1);
+  box-sizing: border-box;
+  border-radius: 16px;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 41px 0 0 41px;
+}
+
+.main_block_card_h3 {
+  font-size: 24px;
+  line-height: 21px;
+  letter-spacing: 0.2px;
+  color: #16133d;
+  margin: 28px 0 0 41px;
+}
+
+.main_block_card :nth-child(3) {
+  font-size: 16px;
+  line-height: 28px;
+  margin: 14px 0 0 41px;
+}
+
+.main_block_card :nth-child(4) {
+  font-size: 16px;
+  line-height: 19px;
+  margin: 29px 0 0 41px;
+}
+
+.main_block_card:hover {
+  border-color: #3db370;
+}
+
+.main_block_card:hover .light_color {
+  fill: #caeff2;
+}
+
+.main_block_card:hover .supet_light {
+  fill: #e1f4f5;
+}
+
+.main_block_card:hover .solid_color {
+  fill: #52c29d;
+}
+
+.footer {
+  width: 1440px;
+  height: 194px;
+  background: #16133d;
+  margin: 69px 0 0 0;
+}
+
+.footer_logo {
+  color: #ffffff;
+  font-family: Quicksand;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 35px;
+  margin: 0 0 0 160px;
+  padding-top: 36px;
+}
+
+.footer_menu {
+  list-style: none;
+  width: 222px;
+  height: 38px;
+  margin: 40px 8px 0 161px;
+}
+
+.footer_menu_item {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  background: #efeef3;
+  border-radius: 5px;
+  position: relative;
+}
+
+.footer_menu_item:hover svg {
+  fill: #3db370;
+}
